@@ -133,32 +133,22 @@ input {
     color: #cccccc;
 }
 
-.portfolio {
+/* Portfolio Page Styling */
+#portfolioSection {
     display: inline-block;
     width: 100%;
     margin: 1em;
     z-index: 1;
     overflow: hidden;
+    margin-bottom: 100px;
 }
 
-
-/* Portfolio Page Styling */
-  /* section div {
-      width: 35%;
-      display: inline-block;
-      overflow:hidden;
-      z-index: 1;
-      position: relative;
-      left: 17px;
-} */
-
-.portfolioHeader {
+.card-title {
     width: 100%;
     background-color: #4aaaa5;
     height: 50px;
     position: absolute;
     bottom: 0px;
-    left: 17px;
     right: 0px;
     z-index: 2;
     text-align: center;

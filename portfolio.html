@@ -1,67 +1,160 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-    <meta charset="UTF-8"/>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
     <title>Jennifer Purdy's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-<body>
-<header>
-   
-<!-- wrapper to align heading and nav with content section -->
-    <div>
-        <!-- name -->
-        <h1>Jennifer Purdy</h1>
-        <!-- nav -->
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li class="divider">|</li>
-                <li><a href="#">Portfolio</a></li>
-                <li class="divider">|</li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstyle.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="index.html" id="logo">Jennifer Purdy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
 
     <!-- main content -->
-<section>
-    <h1>Portfolio</h1>
+    <section id="portfolioSection" class="container">
+      <h1>Portfolio</h1>
 
-<div>
+      <div class="row">
+        <div class="card col-5">
+          <img
+            class="card-img"
+            src="assets/images/placeholder1.jpg"
+            class="portfolio"
+            alt="placeholder image"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Hangman</h5>
+          </div>
+        </div>
+        <div class="card col-5">
+          <img
+            class="card-img"
+            src="assets/images/placeholder2.jpg"
+            class="portfolio"
+            alt="placeholder image"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title">RPG Game</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-5">
+          <img
+            class="card-img"
+            src="assets/images/placeholder3.jpg"
+            class="portfolio"
+            alt="placeholder image"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Trivia Game</h5>
+          </div>
+        </div>
+        <div class="card col-5">
+          <img
+            class="card-img"
+            src="assets/images/placeholder4.jpg"
+            class="portfolio"
+            alt="placeholder image"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Rutgers Info Widget</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col-5">
+          <img
+            class="card-img"
+            src="assets/images/placeholder5.jpg"
+            class="portfolio"
+            alt="placeholder image"
+          />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Rock Paper Scissors</h5>
+          </div>
+        </div>
+      </div>
+      <!-- <div>
     <img src="assets/images/placeholder1.jpg" class="portfolio" alt="placeholder image">
     <h4 class="portfolioHeader">Hangman</h4>
-  
-</div>
+    </div>
 
 <div>
-    <img src="assets/images/placeholder2.jpg" class="portfolio" alt="placeholder image">
+    <img class="card-img" src="assets/images/placeholder2.jpg" class="portfolio" alt="placeholder image">
     <h4 class="portfolioHeader">RPG Game</h4>
 </div>
 
 <div>
-    <img src="assets/images/placeholder3.jpg" class="portfolio" alt="placeholder image">
+    <img class="card-img" src="assets/images/placeholder3.jpg" class="portfolio" alt="placeholder image">
     <h4 class="portfolioHeader">Trivia Game</h4>
 </div>
 
 <div>
-    <img src="assets/images/placeholder4.jpg" class="portfolio" alt="placeholder image">
+    <img class="card-img" src="assets/images/placeholder4.jpg" class="portfolio" alt="placeholder image">
     <h4 class="portfolioHeader">Rutgers Info Widget</h4>
 </div>
 
 <div>
-    <img src="assets/images/placeholder5.jpg" class="portfolio" alt="placeholder image">
+    <img class="card-img" src="assets/images/placeholder5.jpg" class="portfolio" alt="placeholder image">
     <h4 class="portfolioHeader">Rock Paper Scissors</h4>
-</div>
+</div> -->
+    </section>
 
-</section>
-
-
-
-<!-- footer -->
-      <footer>Copyright &copy; Jennifer Purdy</footer>
-    </body>
+    <!-- footer -->
+    <footer>Copyright &copy; Jennifer Purdy</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
