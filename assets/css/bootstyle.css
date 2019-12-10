@@ -26,7 +26,7 @@ a.nav-link:hover {
     height:100%;
 }
 .navbar{
-    padding-top: 0 1rem 0 0;
+    padding: 0;
     border-bottom: 1px solid #cccccc;
 }
 
@@ -60,17 +60,16 @@ section h2{
     text-align: right;
 }
 
+.col-xs-8{
+    padding: 0;
+}
 .col-md-8{
-    padding-left: 0;
+    padding: 0 30px 0 10px;
 }
 
 p {
         color: #777777;
         line-height: 1.8;
-}
-
-article{
-    margin: 20px;
 }
 
 footer {
@@ -107,7 +106,7 @@ input {
 }
 
 .submit {
-    width:10%;
+    width:60px;
     background-color:#4aaaa5;
     color: #ffffff;
     border:none;
@@ -156,4 +155,12 @@ input {
     color: #ffffff;
     line-height: 50px;
     font-size: 1.2em;
+}
+
+.img-xs-thumbnail{
+    margin: 0;
+}
+
+.img-md-thumbnail{
+    margin: 0 10px;
 }
