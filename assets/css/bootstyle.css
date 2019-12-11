@@ -157,10 +157,8 @@ input {
     font-size: 1.2em;
 }
 
-.img-xs-thumbnail{
-    margin: 0;
-}
-
-.img-md-thumbnail{
-    margin: 0 10px;
+.card{
+    margin: auto;
+    border: none;
+    margin-bottom: 30px;
 }
