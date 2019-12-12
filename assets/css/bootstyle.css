@@ -134,12 +134,12 @@ input {
 
 /* Portfolio Page Styling */
 #portfolioSection {
-    display: inline-block;
-    width: 100%;
-    margin: 1em;
+    /* display: inline-block; */
+    margin: auto;
     z-index: 1;
     overflow: hidden;
     margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .card-title {
@@ -161,4 +161,12 @@ input {
     margin: auto;
     border: none;
     margin-bottom: 30px;
+}
+
+.container-xs{
+    margin: 20px 20px 100px;
+}
+
+.row{
+    margin: auto;
 }
