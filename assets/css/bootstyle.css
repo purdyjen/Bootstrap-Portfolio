@@ -7,7 +7,10 @@ body {
     background-image: url("../images/what-the-hex.png");
     height: 90%;
 }
-.navbar-light .navbar-nav .active>.nav-link{
+
+/* Navbar Styling */
+
+.navbar-light .navbar-nav .active>.nav-link {
     color: #4aaaa5;
 }
 
@@ -16,7 +19,7 @@ a.nav-link:hover {
     background-color: #4aaaa5;
 }
 
-#logo{
+#logo {
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -25,10 +28,12 @@ a.nav-link:hover {
     margin:0;
     height:100%;
 }
-.navbar{
+.navbar {
     padding: 0;
     border-bottom: 1px solid #cccccc;
 }
+
+/* All Pages */
 
 section {
        
@@ -50,28 +55,6 @@ section h1 {
         padding:  10px 0;
 }
 
-section h2{
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #4aaaa5;
-    margin: 5px;
-    font-size: 1em;
-    border-bottom: 1px solid #cccccc;
-    padding:  0 0 5px 0;
-    text-align: right;
-}
-
-.col-xs-8{
-    padding: 0;
-}
-.col-md-8{
-    padding: 0 30px 0 10px;
-}
-
-p {
-        color: #777777;
-        line-height: 1.8;
-}
-
 footer {
     position: fixed;
     background-color:#666666;
@@ -85,8 +68,35 @@ footer {
     z-index: 10;      
 }
 
+/* About Page Styling */
+
+section h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    margin: 5px;
+    font-size: 1em;
+    border-bottom: 1px solid #cccccc;
+    padding:  0 0 5px 0;
+    text-align: right;
+}
+
+.col-xs-8 {
+    padding: 0;
+}
+.col-md-8 {
+    padding: 0 30px 0 10px;
+}
+
+p {
+        color: #777777;
+        line-height: 1.8;
+}
 
   /*Contact Page Styling  */
+
+.container-xs {
+    margin: 20px 20px 100px;
+}
 
 form {
     margin:25px;
@@ -116,30 +126,32 @@ input {
 }
 
 /* Chrome, Firefox, Opera, Safari 10.1+ */
-::placeholder { 
+    ::placeholder { 
     color: #cccccc;
     opacity: 1; /* Firefox */
     font-size: 125%;
-}
-
+    }
 /* Internet Explorer 10-11 */
-:-ms-input-placeholder { 
+    :-ms-input-placeholder { 
     color: #cccccc;
-}
-
+    }
 /* Microsoft Edge */
-::-ms-input-placeholder { 
+    ::-ms-input-placeholder { 
     color: #cccccc;
-}
+    }
 
 /* Portfolio Page Styling */
+
 #portfolioSection {
-    /* display: inline-block; */
     margin: auto;
     z-index: 1;
     overflow: hidden;
     margin-bottom: 100px;
     margin-top: 20px;
+}
+
+.row {
+    margin: auto;
 }
 
 .card-title {
@@ -157,16 +169,11 @@ input {
     font-size: 1.2em;
 }
 
-.card{
+.card {
     margin: auto;
     border: none;
     margin-bottom: 30px;
 }
 
-.container-xs{
-    margin: 20px 20px 100px;
-}
 
-.row{
-    margin: auto;
-}
+
